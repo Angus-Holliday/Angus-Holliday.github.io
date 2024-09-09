@@ -23,8 +23,22 @@ body {
   to {opacity: 1;}
 }
 .button:active {
+  opacity: 0.5;
+}
+.button:not(:active) {
   animation-name: button-press;
   animation-duration: 1s;
+}
+.button:hover {
+  opacity: 0.5;
+}
+.button:not(:hover) {
+  animation-name: button-press;
+  animation-duration: 0.5s;
+}
+.topnav a:hover {
+  background-color: sandybrown;
+  color: black;
 }
 .topnav {
   background-color: darkgoldenrod;
