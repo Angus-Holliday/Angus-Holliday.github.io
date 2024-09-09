@@ -18,30 +18,30 @@ body {
   color: white;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-@keyframes button-press {
+/* @keyframes button-press {
   from {opacity: 0.5;}
   to {opacity: 1;}
-}
+} */
 .button:active {
   opacity: 0.5;
 }
-.button:not(:active) {
+/* .button:not(:active) {
   animation-name: button-press;
   animation-duration: 1s;
-}
+} */
 .button:hover {
   opacity: 0.5;
 }
-.button:not(:hover) {
+/* .button:not(:hover) {
   animation-name: button-press;
   animation-duration: 0.5s;
-}
+} */
 .topnav a:hover {
   background-color: sandybrown;
   color: black;
 }
 .topnav {
-  background-color: darkgoldenrod;
+  background-color: rgb(140, 111, 173);
   overflow: hidden;
 }
 .topnav a {
@@ -52,10 +52,10 @@ body {
   font-size: 17px;
 }
 .topnav a:hover {
-  background-color: sandybrown;
+  background-color: rgb(214, 181, 236);
   color: black;
 }
 .topnav a:active {
-  background-color: rgb(14, 244, 117);
-  color: rgb(226, 12, 12);
+  background-color: #f2f2f2;
+  color: black;
 }
