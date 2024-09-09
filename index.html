@@ -31,10 +31,37 @@
     }
     .button:active {
       opacity: 0.5;
+      color: rgb(72, 27, 206);
+    }
+    .topnav {
+      background-color: darkgoldenrod;
+      overflow: hidden;
+    }
+    .topnav a {
+      float: left;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 16px;
+      font-size: 17px;
+    }
+    .topnav a:hover {
+      background-color: sandybrown;
+      color: black;
+    }
+    .topnav a:active {
+      background-color: rgb(14, 244, 117);
+      color: rgb(226, 12, 12);
     }
   </style>
 </head>
 <body>
+
+<div class="topnav">
+  <a class="active" href="#home">Home</a>
+  <a href="#news">News</a>
+  <a href="#contact">Contact</a>
+  <a href="#news">About</a>
+</div>
 
 <div class="box2">
   <h1>Hello, I'm Angus</h1>
