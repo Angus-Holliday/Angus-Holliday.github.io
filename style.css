@@ -24,7 +24,7 @@ body {
 }
 .button:active {
   animation-name: button-press;
-  animation-duration: 2s;
+  animation-duration: 1s;
 }
 .topnav {
   background-color: darkgoldenrod;
