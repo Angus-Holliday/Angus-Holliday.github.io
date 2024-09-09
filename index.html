@@ -24,10 +24,9 @@
       background-image: url("download.jpg");
       border-radius: 10px;
       border: 5px solid peru;
-      color: saddlebrown;
+      color: rgb(38, 255, 0);
       width: 255px;
       height: 255px;
-      padding: 20px;
       font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     }
     .button:active {
@@ -41,10 +40,30 @@
   <h1>Hello, I'm Angus</h1>
 </div>
 
-<button class="button">Button 1</button>
-<button class="button">Button 2</button>
+<div id= "buttondetector" class="box2">
+  <h1>Button Detector</h1>
+</div>
+
+<button id="button1" class="button">Button 1</button>
+<button id="button2" class="button">Button 2</button>
+<button id="button3" class="button">Button 2</button>
 
 <img src="safeimagekit-lemon.png" alt="Lemon" width="32" height="32">
 
 </body>
 </html>
+
+<script>
+  document.getElementById("button1").addEventListener('click', () => {
+    document.getElementById("buttondetector").innerText = "button 1";
+  });
+
+  document.getElementById("button2").addEventListener('click', () => {
+    document.getElementById("buttondetector").innerText = "button 2";
+  });
+
+  document.getElementById("button3").addEventListener('click', () => {
+    document.getElementById("buttondetector").innerText = "button 3";
+  });
+
+</script>
