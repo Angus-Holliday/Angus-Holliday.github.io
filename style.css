@@ -34,6 +34,11 @@ body {
   50% { border-color: rgb(254, 82, 194); }
   100%{ border-color: blueviolet; }
 }
+@keyframes gradient-fill-cycle {
+  0%  { border-color: blueviolet; }
+  50% { border-color: rgb(254, 82, 194); }
+  100%{ border-color: blueviolet; }
+}
 .button:active {
   animation: none;
 }
@@ -44,9 +49,10 @@ body {
   animation-name: gradient-cycle;
   animation-duration: 4s;
   animation-iteration-count: infinite;
+  opacity: 0.7;
 }
 .topnav {
-  background-color: rgb(62, 62, 62);
+  background-color: rgb(41, 38, 50);
   overflow: hidden;
 }
 .topnav a {
@@ -58,7 +64,7 @@ body {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .topnav a:hover {
-  animation-name: gradient-cycle;
+  animation-name: gradient-fill-cycle;
   animation-duration: 4s;
   animation-iteration-count: infinite;
   color: black;
