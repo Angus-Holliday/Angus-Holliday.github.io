@@ -2,6 +2,9 @@ body {
   background-color: rgb(50, 50, 60);
 }
 .box2 {
+  animation-name: gradient-cycle;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
   border-width: 5px;
   border-style: solid;
   border-color: linear-gradient(rgb(254, 82, 194), rgb(177, 43, 255));
@@ -16,9 +19,7 @@ body {
   font-size: 20px;
   border-width: 5px;
   border-style: solid;
-  animation-name: gradient-cycle;
-  animation-duration: 4s;
-  animation-iteration-count: infinite;
+  border-color: blueviolet;
   /* border-image: linear-gradient(rgb(254, 82, 194), rgb(177, 43, 255)); */
   background-color: rgb(89, 89, 92);
   border-radius: 10px;
@@ -40,17 +41,9 @@ body {
 .button:focus {
   animation: button_press 2s ease-in-out backwards;
 }
-/* .button:not(:active) {
-  animation-name: button-press;
-  animation-duration: 1s;
-} */
 .button:hover {
   opacity: 0.5;
 }
-/* .button:not(:hover) {
-  animation-name: button-press;
-  animation-duration: 0.5s;
-} */
 .topnav a:hover {
   background-color: sandybrown;
   color: black;
