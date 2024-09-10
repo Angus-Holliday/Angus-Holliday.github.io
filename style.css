@@ -57,6 +57,7 @@ body {
   text-align: center;
   padding: 14px 16px;
   font-size: 17px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .topnav a:hover {
   background-color: rgb(214, 181, 236);
