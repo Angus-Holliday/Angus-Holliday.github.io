@@ -67,3 +67,9 @@ body {
   background-color: #f2f2f2;
   color: black;
 }
+.gradientbox {
+  border-image: linear-gradient(rgb(254, 82, 194), rgb(177, 43, 255));
+  width: 5px;
+  border-style: solid;
+  padding: 5px;
+}
