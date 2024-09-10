@@ -45,12 +45,8 @@ body {
   animation-duration: 4s;
   animation-iteration-count: infinite;
 }
-.topnav a:hover {
-  background-color: sandybrown;
-  color: black;
-}
 .topnav {
-  background-color: rgb(140, 111, 173);
+  background-color: rgb(62, 62, 62);
   overflow: hidden;
 }
 .topnav a {
@@ -62,7 +58,9 @@ body {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .topnav a:hover {
-  background-color: rgb(214, 181, 236);
+  animation-name: gradient-cycle;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
   color: black;
 }
 .topnav a:active {
