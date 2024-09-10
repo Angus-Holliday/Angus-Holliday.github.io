@@ -49,9 +49,9 @@ body {
   100%{ border-color: blueviolet; }
 }
 @keyframes gradient-fill-cycle {
-  0%  { border-color: blueviolet; }
-  50% { border-color: rgb(254, 82, 194); }
-  100%{ border-color: blueviolet; }
+  0%  { background-color: blueviolet; }
+  50% { background-color: rgb(254, 82, 194); }
+  100%{ background-color: blueviolet; }
 }
 .button:active {
   animation: none;
